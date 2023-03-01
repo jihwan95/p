@@ -4,14 +4,33 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Age</title>
+        <title>.</title>
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <script src="script.js"></script>
-        <!--웹 페이지에 표시할 내용을 적습니다.-->
 
-        <button class="btn" onclick="calc()">나이 계산</button>
-        <div id="result" class="show">(결과값 표시)</div>
+        <!-- 현재 위치 데이터 입력 버튼 -->
+        <form action="#">
+            <fieldset>
+                <legend>현재 위치</legend>
+                <select name="building" id="building">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                    <option value="F">F</option>
+                    <!-- 곧 추가 예정 -->
+                </select>
+                <select name="floor" id="floor">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <!-- 곧 추가 예정 -->
+                </select>
+            </fieldset>
+        </form>
     </body>
 </html>
